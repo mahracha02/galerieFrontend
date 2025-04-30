@@ -20,7 +20,7 @@ const App = () => {
       <div className="pt-16 min-h-screen">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/galerieFrontend" element={<Home />} />
+          <Route path="/galerieFrontend/" element={<Home />} />
           <Route path="/expositions" element={<Expositions />} />
           <Route path="/expositions/:id" element={ <ExpoDetails />} />
           <Route path="/evenements" element={<Evenements />} />
