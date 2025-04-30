@@ -6,8 +6,9 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),
     tailwindcss(),
-
   ],
+  base: '/galerieFrontend/',
+
   server: {
     proxy: {
       '/expositions/api': {
